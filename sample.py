@@ -1,4 +1,3 @@
-
 import pandas as pd
 import datetime as dt
 import seaborn as sns
@@ -154,3 +153,4 @@ fig=px.bar(vc,x='Transaction_Type',y='Transaction_Type',
              color_discrete_sequence=px.colors.qualitative.Pastel)'''
 fig.update_layout(xaxis={'categoryorder':'total descending'})
 fig.show()
+
